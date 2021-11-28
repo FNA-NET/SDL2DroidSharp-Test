@@ -1,0 +1,3 @@
+[submodule "SDL2DroidSharp-JBindings"]
+	path = SDL2DroidSharp-JBindings
+	url = git@github.com:FNA-NET/SDL2DroidSharp-JBindings.git

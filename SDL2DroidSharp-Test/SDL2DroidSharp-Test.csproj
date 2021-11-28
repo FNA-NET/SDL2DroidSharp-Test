@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>SDL2DroidSharp</RootNamespace>
+    <BaseOutputPath>Artifacts</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedNativeLibrary Include="runtimes\arm64-v8a\libSDL2.so" Link="libs\arm64-v8a\libSDL2.so" />
+    <EmbeddedNativeLibrary Include="runtimes\arm64-v8a\libhidapi.so" Link="libs\arm64-v8a\libhidapi.so" />
+    <EmbeddedNativeLibrary Include="runtimes\arm64-v8a\libmain.so" Link="libs\arm64-v8a\libmain.so" />
+
+    <EmbeddedNativeLibrary Include="runtimes\x86_64\libSDL2.so" Link="libs\x86_64\libSDL2.so" />
+    <EmbeddedNativeLibrary Include="runtimes\x86_64\libhidapi.so" Link="libs\x86_64\libhidapi.so" />
+    <EmbeddedNativeLibrary Include="runtimes\x86_64\libmain.so" Link="libs\x86_64\libmain.so" />
+
+    <EmbeddedNativeLibrary Include="runtimes\x86\libSDL2.so" Link="libs\x86\libSDL2.so" />
+    <EmbeddedNativeLibrary Include="runtimes\x86\libhidapi.so" Link="libs\x86\libhidapi.so" />
+    <EmbeddedNativeLibrary Include="runtimes\x86\libmain.so" Link="libs\x86\libmain.so" />
+  </ItemGroup>
+
+</Project>
