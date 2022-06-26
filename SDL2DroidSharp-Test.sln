@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDL2DroidSharp-Test", "SDL2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDL2DroidSharp-Test.Android", "SDL2DroidSharp-Test.Android\SDL2DroidSharp-Test.Android.csproj", "{AA0DA48C-2B3F-4814-B15E-59758B92DDA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL2DroidSharp-JBindings", "SDL2DroidSharp-JBindings\SDL2DroidSharp-JBindings.csproj", "{D9E9D1DF-3E3D-4FB8-9BD2-55983B0DE2FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{AA0DA48C-2B3F-4814-B15E-59758B92DDA4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{AA0DA48C-2B3F-4814-B15E-59758B92DDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA0DA48C-2B3F-4814-B15E-59758B92DDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E9D1DF-3E3D-4FB8-9BD2-55983B0DE2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E9D1DF-3E3D-4FB8-9BD2-55983B0DE2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E9D1DF-3E3D-4FB8-9BD2-55983B0DE2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E9D1DF-3E3D-4FB8-9BD2-55983B0DE2FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
